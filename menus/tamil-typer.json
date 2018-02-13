@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tamil-typer",
+        "command": "tamil-typer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tamil-typer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tamil-typer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
